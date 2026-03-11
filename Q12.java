@@ -29,7 +29,7 @@ public class Q12 {
         for(int i = 0; i < n; i++){
             arr[i] = sc.nextInt();
         }
-
+        sc.close();
         if(n < 2){
             System.out.println("Second Smallest : -1");
             System.out.println("Second Largest : -1");
@@ -69,5 +69,6 @@ public class Q12 {
 
         System.out.println("Second Smallest : " + secondSmallest);
         System.out.println("Second Largest : " + secondLargest);
+        
     }
 }
